@@ -71,8 +71,6 @@
 
   </div>
 
-
-
   <!-- contact section -->
 
   <section class="contact_section layout_padding">
@@ -81,7 +79,7 @@
         <h2 class="">
           Request
           <span>
-            A call Back
+            Contact
           </span>
 
         </h2>
@@ -210,7 +208,7 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      &copy; 2019 All Rights Reserved By
+      &copy; 2023 All Rights Reserved By
       <a href="https://html.design/">Free Html Templates</a>
     </p>
   </section>
@@ -223,7 +221,7 @@
     // This example adds a marker to indicate the position of Bondi Beach in Sydney,
     // Australia.
     function initMap() {
-      var map = new google.maps.Map(document.getElementById("map"), {
+      const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 11,
         center: {
           lat: 40.645037,
@@ -231,8 +229,9 @@
         }
       });
 
-      var image = "images/maps-and-flags.png";
-      var beachMarker = new google.maps.Marker({
+      const image = "images/maps-and-flags.png";
+      let beachMarker;
+      beachMarker = new google.maps.Marker({
         position: {
           lat: 40.645037,
           lng: -73.880224

@@ -5,7 +5,7 @@ body {
 }
 
 .layout_padding {
-  padding: 75px 0;
+  padding: 120px 0 70px;
 }
 
 .layout_padding2 {
@@ -40,7 +40,7 @@ body {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #78853f;
+  background-color: #007ea7;
   height: 85vh;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .header_section {
-  background-color: #90953b;
+  background-color: #00a7e1;
 }
 
 .header_section .container-fluid {
@@ -82,12 +82,12 @@ body {
   width: 65%;
   left: 50%;
   height: 2.5px;
-  background-color: #ffff00;
+  background-color: yellow;
   bottom: 8px;
   margin: 0 auto;
   display: block;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 a,
@@ -105,7 +105,7 @@ a:focus {
 .btn:focus {
   outline: none !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -124,8 +124,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .navbar-brand span {
@@ -153,20 +153,20 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
-  background-image: url(../images/slider-bg.jpg);
+  background-image: url(../images/kids-books-online.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 90%;
   margin: 0 auto;
   -webkit-transform: translateY(50px);
-          transform: translateY(50px);
+  transform: translateY(50px);
   height: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider_section .detail-box {
@@ -174,7 +174,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #ffff00;
+  color: #00a7e1;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -198,15 +198,15 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #ffff00;
-  color: #050505;
+  background-color: #00a7e1;
+  color: white;
   border-radius: 0;
   text-transform: uppercase;
   margin-right: 10px;
 }
 
 .slider_section .detail-box .btn-box .btn-1:hover {
-  background-color: #e6e600;
+  background-color: #007ea7;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
@@ -216,28 +216,35 @@ a:focus {
   color: #050505;
   border-radius: 0;
   text-transform: uppercase;
+  margin: 10px 0;
 }
 
 .slider_section .detail-box .btn-box .btn-2:hover {
   background-color: #f8f0e9;
 }
 
+#carouselExampleIndicators {
+  position: relative;
+  left: 0;
+  width: 100%;
+}
+
 .slider_section ol.carousel-indicators {
   margin: 0;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   bottom: -75px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider_section ol.carousel-indicators li {
   width: 20px;
   height: 20px;
   opacity: 1;
-  background-color: #ffff00;
+  background-color: #00a7e1;
   border-radius: 100%;
 }
 
@@ -251,8 +258,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 45px 0;
 }
 
@@ -264,11 +271,11 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-right: 25px;
 }
 
@@ -278,7 +285,8 @@ a:focus {
 }
 
 .offer_section .content-box:hover .img-box {
-  background-color: #8f9440;
+  /* background-color: #007EA7; */
+  background-color: #00A7E1;
 }
 
 .offer_section .content-box:hover .img-box svg {
@@ -309,8 +317,8 @@ a:focus {
 
 .about_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .about_section .row .col-md-6 {
@@ -332,15 +340,15 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #ffff00;
-  color: #050505;
+  background-color: #00a7e1;
+  color: white;
   border-radius: 0;
   text-transform: uppercase;
   margin-top: 25px;
 }
 
 .about_section .detail-box a:hover {
-  background-color: #e6e600;
+  background-color: #007ea7;
 }
 
 .client_section {
@@ -357,17 +365,17 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
 .client_section .client_container .img-box {
   width: 250px;
-  border: 5px solid #7f7f31;
+  border: 5px solid #00a7e1;
   border-radius: 100%;
 }
 
@@ -387,7 +395,7 @@ a:focus {
 
 .client_section .client_container .detail-box h6 {
   text-transform: uppercase;
-  color: #7f7f31;
+  color: #00a7e1;
 }
 
 .client_section .client_container .detail-box p {
@@ -399,11 +407,15 @@ a:focus {
   width: 60px;
 }
 
+#carouselExampleIndicators > div {
+  text-shadow: 1px 1px 1px black;
+}
+
 .client_section .carousel-control-prev,
 .client_section .carousel-control-next {
   width: 50px;
   height: 50px;
-  background-color: #7f7f31;
+  background-color: #00a7e1;
   opacity: 1;
   top: 40%;
   background-repeat: no-repeat;
@@ -413,7 +425,7 @@ a:focus {
 
 .client_section .carousel-control-prev:hover,
 .client_section .carousel-control-next:hover {
-  background-color: #050505;
+  background-color: #003459;
 }
 
 .client_section .carousel-control-prev {
@@ -426,17 +438,18 @@ a:focus {
 
 .contact_section {
   position: relative;
-  background-color: #90973b;
+  background-color: white;
   font-family: "Poppins", sans-serif;
 }
 
 .contact_section h2 {
   text-align: center;
   margin-bottom: 65px;
+  color: #00A7E1;
 }
 
 .contact_section h2 span {
-  color: #fefdfc;
+  color: #003459;
 }
 
 .contact_section form {
@@ -445,7 +458,7 @@ a:focus {
 
 .contact_section input {
   width: 100%;
-  border: 0;
+  border: 1px solid #00A7E1;
   height: 50px;
   border-radius: 25px;
   margin-bottom: 25px;
@@ -457,18 +470,22 @@ a:focus {
 
 .contact_section input::-webkit-input-placeholder {
   color: #131313;
+  padding: 1em;
 }
 
 .contact_section input:-ms-input-placeholder {
   color: #131313;
+  padding: 1em;
 }
 
 .contact_section input::-ms-input-placeholder {
   color: #131313;
+  padding: 1em;
 }
 
 .contact_section input::placeholder {
   color: #131313;
+  padding: 1em;;
 }
 
 .contact_section input.message-box {
@@ -478,21 +495,27 @@ a:focus {
 .contact_section button {
   padding: 15px 55px;
   outline: none;
-  border: none;
   border-radius: 30px;
-  border: 1px solid #fa0909;
+  border: 1px solid #003459;
   color: #fff;
   font-weight: bold;
-  background-color: #fa0909;
+  background-color: #003459;
+}
+
+.contact_section button:hover {
+  border: 1px solid #00A7E1;
+  color: #fff;
+  background-color: #00A7E1;
 }
 
 .contact_section .map_section {
   width: 100%;
   height: 450px;
+  border: 10px double #003459;
 }
 
 .info_section {
-  background-color: #252525;
+  background-color: #003459;
   color: #fefdfc;
   font-family: "Lato", sans-serif;
 }
@@ -513,8 +536,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   margin-bottom: 25px;
 }
 
@@ -548,19 +571,19 @@ a:focus {
   outline: none;
   border: none;
   border-radius: 30px;
-  color: #050505;
+  color: white;
   text-transform: uppercase;
-  background-color: #ffff00;
+  background-color: #00a7e1;
   -webkit-transform: translate(-102%);
-          transform: translate(-102%);
-  margin-top: 2.5px;
+  transform: translate(-102%);
+  margin-top: 3px;
 }
 
 /* footer section*/
 .footer_section {
-  background-color: #252525;
+  /*background-color: #003459;*/
   padding: 20px;
-  background-color: #7a772d;
+  background-color: #007ea7;
 }
 
 .footer_section p {
