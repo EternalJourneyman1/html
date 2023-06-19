@@ -5,7 +5,7 @@ body {
 }
 
 .layout_padding {
-  padding: 75px 0;
+  padding: 120px 0 70px;
 }
 
 .layout_padding2 {
@@ -216,6 +216,7 @@ a:focus {
   color: #050505;
   border-radius: 0;
   text-transform: uppercase;
+  margin: 10px 0;
 }
 
 .slider_section .detail-box .btn-box .btn-2:hover {
@@ -224,8 +225,8 @@ a:focus {
 
 #carouselExampleIndicators {
   position: relative;
-  left: 47em;
-  width: 75%;
+  left: 0;
+  width: 100%;
 }
 
 .slider_section ol.carousel-indicators {
@@ -406,6 +407,10 @@ a:focus {
   width: 60px;
 }
 
+#carouselExampleIndicators > div {
+  text-shadow: 1px 1px 1px black;
+}
+
 .client_section .carousel-control-prev,
 .client_section .carousel-control-next {
   width: 50px;
@@ -490,7 +495,6 @@ a:focus {
 .contact_section button {
   padding: 15px 55px;
   outline: none;
-  border: none;
   border-radius: 30px;
   border: 1px solid #003459;
   color: #fff;
@@ -572,12 +576,12 @@ a:focus {
   background-color: #00a7e1;
   -webkit-transform: translate(-102%);
   transform: translate(-102%);
-  margin-top: 2.5px;
+  margin-top: 3px;
 }
 
 /* footer section*/
 .footer_section {
-  background-color: #003459;
+  /*background-color: #003459;*/
   padding: 20px;
   background-color: #007ea7;
 }
